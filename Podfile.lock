@@ -1,3 +1,18 @@
-PODFILE CHECKSUM: f57843a2282d955bde36da162301ce1be00be10b
+PODS:
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+
+DEPENDENCIES:
+  - YYCategories
+
+SPEC REPOS:
+  trunk:
+    - YYCategories
+
+SPEC CHECKSUMS:
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+
+PODFILE CHECKSUM: f13558ba1ccc9d19b4905a13bcfb7e678cb32597
 
 COCOAPODS: 1.10.0

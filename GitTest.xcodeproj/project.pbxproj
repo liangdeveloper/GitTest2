@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,6 @@
 		B60AD75925AEDD1B0047158B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AD75825AEDD1B0047158B /* ViewController.m */; };
 		B60AD75C25AEDD1B0047158B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60AD75A25AEDD1B0047158B /* Main.storyboard */; };
 		B60AD75E25AEDD1F0047158B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60AD75D25AEDD1F0047158B /* Assets.xcassets */; };
-		B60AD76125AEDD1F0047158B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60AD75F25AEDD1F0047158B /* LaunchScreen.storyboard */; };
 		B60AD76425AEDD1F0047158B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AD76325AEDD1F0047158B /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +28,6 @@
 		B60AD75825AEDD1B0047158B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B60AD75B25AEDD1B0047158B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B60AD75D25AEDD1F0047158B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B60AD76025AEDD1F0047158B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B60AD76225AEDD1F0047158B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B60AD76325AEDD1F0047158B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD83FF7C49F99B1D1F08B1DC /* Pods-GitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitTest.debug.xcconfig"; path = "Target Support Files/Pods-GitTest/Pods-GitTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 				B60AD75825AEDD1B0047158B /* ViewController.m */,
 				B60AD75A25AEDD1B0047158B /* Main.storyboard */,
 				B60AD75D25AEDD1F0047158B /* Assets.xcassets */,
-				B60AD75F25AEDD1F0047158B /* LaunchScreen.storyboard */,
 				B60AD76225AEDD1F0047158B /* Info.plist */,
 				B60AD76325AEDD1F0047158B /* main.m */,
 				A10B05DE25AFE5FF00069586 /* LJPerson.h */,
@@ -111,6 +108,7 @@
 				B60AD74A25AEDD1B0047158B /* Sources */,
 				B60AD74B25AEDD1B0047158B /* Frameworks */,
 				B60AD74C25AEDD1B0047158B /* Resources */,
+				98347DAE98AAA35B36195D8D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,7 +155,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B60AD76125AEDD1F0047158B /* LaunchScreen.storyboard in Resources */,
 				B60AD75E25AEDD1F0047158B /* Assets.xcassets in Resources */,
 				B60AD75C25AEDD1B0047158B /* Main.storyboard in Resources */,
 			);
@@ -166,6 +163,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		98347DAE98AAA35B36195D8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitTest/Pods-GitTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitTest/Pods-GitTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GitTest/Pods-GitTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D56565EF22E8A2035F8625DD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,14 +225,6 @@
 				B60AD75B25AEDD1B0047158B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B60AD75F25AEDD1F0047158B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B60AD76025AEDD1F0047158B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

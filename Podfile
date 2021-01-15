@@ -6,5 +6,5 @@ target 'GitTest' do
   use_frameworks!
 
   # Pods for GitTest
-
+  pod 'YYCategories'
 end
