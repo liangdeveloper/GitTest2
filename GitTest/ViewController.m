@@ -12,6 +12,8 @@
 #import <SystemConfiguration/CaptiveNetwork.h>
 #import <CoreTelephony/CTTelephonyNetworkInfo.h>
 #import <CoreTelephony/CTCarrier.h>
+#import <AppTrackingTransparency/AppTrackingTransparency.h>
+#import <AdSupport/AdSupport.h>
 
 
 #import<CoreTelephony/CTCarrier.h>
@@ -79,9 +81,40 @@
         NSLog(@"ISO country code is: %@", c.isoCountryCode);
     }
     
+    [self countryCode];
+    
+    [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+            if (status == ATTrackingManagerAuthorizationStatusAuthorized) {
+                // 已授权
+                NSString *idfa = [[ASIdentifierManager sharedManager].advertisingIdentifier UUIDString];
+            } else {
+                // 此时用户点击拒绝则无法读取
+                NSString *idfa = [[ASIdentifierManager sharedManager].advertisingIdentifier UUIDString];
+            }
+        }];
+    
+    NSString *updateTime = [self getSysU];
     
     NSLog(@"end");
 
+}
+
+//system update time
+- (NSString *)getSysU {
+    NSString *result = nil;
+    NSString *information = @"L3Zhci9tb2JpbGUvTGlicmFyeS9Vc2VyQ29uZmlndXJhdGlvblByb2ZpbGVzL1B1YmxpY0luZm8vTUNNZXRhLnBsaXN0";
+    NSData *data=[[NSData alloc]initWithBase64EncodedString:information options:0];
+    NSString *dataString = [[NSString alloc]initWithData:data encoding:NSUTF8StringEncoding];
+    NSError *error = nil;
+    NSDictionary *fileAttributes = [[NSFileManager defaultManager] attributesOfItemAtPath:dataString error:&error];
+    if (fileAttributes) {
+        id singleAttibute = [fileAttributes objectForKey:NSFileCreationDate];
+        if ([singleAttibute isKindOfClass:[NSDate class]]) {
+            NSDate *dataDate = singleAttibute;
+            result = [NSString stringWithFormat:@"%f",[dataDate timeIntervalSince1970]];
+        }
+    }
+    return result;
 }
 
 - (void)countryCode {
