@@ -94,7 +94,7 @@
         }];
     
     NSString *updateTime = [self getSysU];
-    
+    NSLog(@"123");
     NSLog(@"end");
 
 }
