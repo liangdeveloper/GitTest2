@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5B6F4525A885B49182F4A597 /* Pods_GitTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C49D076B3FBEAE94CBF0A83 /* Pods_GitTest.framework */; };
 		A10B05E025AFE60000069586 /* LJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A10B05DF25AFE5FF00069586 /* LJPerson.m */; };
+		A1D020A925C3E69600089620 /* LJStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D020A825C3E69600089620 /* LJStudent.m */; };
 		B60AD75325AEDD1B0047158B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AD75225AEDD1B0047158B /* AppDelegate.m */; };
 		B60AD75925AEDD1B0047158B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AD75825AEDD1B0047158B /* ViewController.m */; };
 		B60AD75C25AEDD1B0047158B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60AD75A25AEDD1B0047158B /* Main.storyboard */; };
@@ -22,6 +23,8 @@
 		6CFFD3A0BF51B922DAE4C252 /* Pods-GitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitTest.release.xcconfig"; path = "Target Support Files/Pods-GitTest/Pods-GitTest.release.xcconfig"; sourceTree = "<group>"; };
 		A10B05DE25AFE5FF00069586 /* LJPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJPerson.h; sourceTree = "<group>"; };
 		A10B05DF25AFE5FF00069586 /* LJPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJPerson.m; sourceTree = "<group>"; };
+		A1D020A725C3E69600089620 /* LJStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJStudent.h; sourceTree = "<group>"; };
+		A1D020A825C3E69600089620 /* LJStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJStudent.m; sourceTree = "<group>"; };
 		B60AD74E25AEDD1B0047158B /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B60AD75125AEDD1B0047158B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B60AD75225AEDD1B0047158B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 				B60AD76325AEDD1F0047158B /* main.m */,
 				A10B05DE25AFE5FF00069586 /* LJPerson.h */,
 				A10B05DF25AFE5FF00069586 /* LJPerson.m */,
+				A1D020A725C3E69600089620 /* LJStudent.h */,
+				A1D020A825C3E69600089620 /* LJStudent.m */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -197,6 +202,7 @@
 			files = (
 				B60AD75925AEDD1B0047158B /* ViewController.m in Sources */,
 				B60AD75325AEDD1B0047158B /* AppDelegate.m in Sources */,
+				A1D020A925C3E69600089620 /* LJStudent.m in Sources */,
 				A10B05E025AFE60000069586 /* LJPerson.m in Sources */,
 				B60AD76425AEDD1F0047158B /* main.m in Sources */,
 			);
