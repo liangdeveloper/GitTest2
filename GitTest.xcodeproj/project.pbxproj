@@ -15,6 +15,7 @@
 		A12CD75C25B962B1005B71D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12CD75B25B962B1005B71D9 /* LaunchScreen.storyboard */; };
 		A16B20E925B58F52009F5485 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = A16B20E825B58F52009F5485 /* test.json */; };
 		A1D020AE25C3E8ED00089620 /* LJPPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D020AD25C3E8ED00089620 /* LJPPModel.m */; };
+		A1D020BE25C3F67700089620 /* LJTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D020BD25C3F67700089620 /* LJTestModel.m */; };
 		B60AD75325AEDD1B0047158B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AD75225AEDD1B0047158B /* AppDelegate.m */; };
 		B60AD75925AEDD1B0047158B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AD75825AEDD1B0047158B /* ViewController.m */; };
 		B60AD75C25AEDD1B0047158B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60AD75A25AEDD1B0047158B /* Main.storyboard */; };
@@ -37,6 +38,8 @@
 		A16B20E825B58F52009F5485 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 		A1D020AC25C3E8ED00089620 /* LJPPModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJPPModel.h; sourceTree = "<group>"; };
 		A1D020AD25C3E8ED00089620 /* LJPPModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJPPModel.m; sourceTree = "<group>"; };
+		A1D020BC25C3F67700089620 /* LJTestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJTestModel.h; sourceTree = "<group>"; };
+		A1D020BD25C3F67700089620 /* LJTestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJTestModel.m; sourceTree = "<group>"; };
 		B60AD74E25AEDD1B0047158B /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B60AD75125AEDD1B0047158B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B60AD75225AEDD1B0047158B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,6 +105,8 @@
 				A12CD75B25B962B1005B71D9 /* LaunchScreen.storyboard */,
 				A1D020AC25C3E8ED00089620 /* LJPPModel.h */,
 				A1D020AD25C3E8ED00089620 /* LJPPModel.m */,
+				A1D020BC25C3F67700089620 /* LJTestModel.h */,
+				A1D020BD25C3F67700089620 /* LJTestModel.m */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -245,6 +250,7 @@
 				A12CD74E25B951DB005B71D9 /* LJCarFive.m in Sources */,
 				B60AD76425AEDD1F0047158B /* main.m in Sources */,
 				A12CD73B25B91C1F005B71D9 /* LJCarTwo.m in Sources */,
+				A1D020BE25C3F67700089620 /* LJTestModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
