@@ -14,6 +14,7 @@
 		A12CD74E25B951DB005B71D9 /* LJCarFive.m in Sources */ = {isa = PBXBuildFile; fileRef = A12CD74D25B951DB005B71D9 /* LJCarFive.m */; };
 		A12CD75C25B962B1005B71D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12CD75B25B962B1005B71D9 /* LaunchScreen.storyboard */; };
 		A16B20E925B58F52009F5485 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = A16B20E825B58F52009F5485 /* test.json */; };
+		A1D020AE25C3E8ED00089620 /* LJPPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D020AD25C3E8ED00089620 /* LJPPModel.m */; };
 		B60AD75325AEDD1B0047158B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AD75225AEDD1B0047158B /* AppDelegate.m */; };
 		B60AD75925AEDD1B0047158B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AD75825AEDD1B0047158B /* ViewController.m */; };
 		B60AD75C25AEDD1B0047158B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60AD75A25AEDD1B0047158B /* Main.storyboard */; };
@@ -34,6 +35,8 @@
 		A12CD74D25B951DB005B71D9 /* LJCarFive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCarFive.m; sourceTree = "<group>"; };
 		A12CD75B25B962B1005B71D9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A16B20E825B58F52009F5485 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		A1D020AC25C3E8ED00089620 /* LJPPModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJPPModel.h; sourceTree = "<group>"; };
+		A1D020AD25C3E8ED00089620 /* LJPPModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJPPModel.m; sourceTree = "<group>"; };
 		B60AD74E25AEDD1B0047158B /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B60AD75125AEDD1B0047158B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B60AD75225AEDD1B0047158B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -97,6 +100,8 @@
 				A12CD74C25B951DB005B71D9 /* LJCarFive.h */,
 				A12CD74D25B951DB005B71D9 /* LJCarFive.m */,
 				A12CD75B25B962B1005B71D9 /* LaunchScreen.storyboard */,
+				A1D020AC25C3E8ED00089620 /* LJPPModel.h */,
+				A1D020AD25C3E8ED00089620 /* LJPPModel.m */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B60AD75925AEDD1B0047158B /* ViewController.m in Sources */,
+				A1D020AE25C3E8ED00089620 /* LJPPModel.m in Sources */,
 				B60AD75325AEDD1B0047158B /* AppDelegate.m in Sources */,
 				A10B05E025AFE60000069586 /* LJPerson.m in Sources */,
 				A12CD73725B91BC8005B71D9 /* LJCar.m in Sources */,
