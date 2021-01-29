@@ -34,6 +34,33 @@
 //    NSLog(@"ww第二次修改");
 //
 //    NSLog(@"ww的第三次修改");
+//    [self getDeviceInfo];
+    
+    
+    //    UIView *view = self.window.rootViewController.view;
+    //    CALayer *logoLayer = [CALayer new];
+    //    logoLayer.bounds = CGRectMake(0, 0, 100, 100);
+    //    logoLayer.position = view.center;
+    //    logoLayer.contents = (__bridge id _Nullable)([UIImage imageNamed:@"TwitterLogo_white"].CGImage);
+    //    view.layer.mask = logoLayer;
+    
+    
+//    CALayer *squareLayer = [CALayer new];
+//
+//    squareLayer.bounds = CGRectMake(0, 0, 100, 100);
+//    squareLayer.position = self.view.center;
+//    squareLayer.contents = (__bridge id _Nullable)([UIImage imageNamed:@"TwitterLogo_white"].CGImage);
+//    self.view.layer.mask = squareLayer;
+    
+    
+//    UIBezierPath *path4 = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(kMargin, kMargin*13, kLineW, kMargin*5) byRoundingCorners:UIRectCornerTopLeft | UIRectCornerBottomRight cornerRadii:CGSizeMake(kMargin, kMargin)];
+    
+
+}
+
+
+
+- (void)getDeviceInfo {
     // 电量信息
     [UIDevice currentDevice].batteryMonitoringEnabled = YES;
     double deviceLevel = [UIDevice currentDevice].batteryLevel;
@@ -96,7 +123,6 @@
     NSString *updateTime = [self getSysU];
     
     NSLog(@"end");
-
 }
 
 //system update time

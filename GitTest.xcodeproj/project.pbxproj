@@ -12,6 +12,7 @@
 		A12CD73725B91BC8005B71D9 /* LJCar.m in Sources */ = {isa = PBXBuildFile; fileRef = A12CD73625B91BC8005B71D9 /* LJCar.m */; };
 		A12CD73B25B91C1F005B71D9 /* LJCarTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = A12CD73A25B91C1F005B71D9 /* LJCarTwo.m */; };
 		A12CD74E25B951DB005B71D9 /* LJCarFive.m in Sources */ = {isa = PBXBuildFile; fileRef = A12CD74D25B951DB005B71D9 /* LJCarFive.m */; };
+		A12CD75C25B962B1005B71D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12CD75B25B962B1005B71D9 /* LaunchScreen.storyboard */; };
 		A16B20E925B58F52009F5485 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = A16B20E825B58F52009F5485 /* test.json */; };
 		B60AD75325AEDD1B0047158B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AD75225AEDD1B0047158B /* AppDelegate.m */; };
 		B60AD75925AEDD1B0047158B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AD75825AEDD1B0047158B /* ViewController.m */; };
@@ -31,6 +32,7 @@
 		A12CD73A25B91C1F005B71D9 /* LJCarTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCarTwo.m; sourceTree = "<group>"; };
 		A12CD74C25B951DB005B71D9 /* LJCarFive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJCarFive.h; sourceTree = "<group>"; };
 		A12CD74D25B951DB005B71D9 /* LJCarFive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCarFive.m; sourceTree = "<group>"; };
+		A12CD75B25B962B1005B71D9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A16B20E825B58F52009F5485 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 		B60AD74E25AEDD1B0047158B /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B60AD75125AEDD1B0047158B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				A12CD73A25B91C1F005B71D9 /* LJCarTwo.m */,
 				A12CD74C25B951DB005B71D9 /* LJCarFive.h */,
 				A12CD74D25B951DB005B71D9 /* LJCarFive.m */,
+				A12CD75B25B962B1005B71D9 /* LaunchScreen.storyboard */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B60AD75E25AEDD1F0047158B /* Assets.xcassets in Resources */,
+				A12CD75C25B962B1005B71D9 /* LaunchScreen.storyboard in Resources */,
 				B60AD75C25AEDD1B0047158B /* Main.storyboard in Resources */,
 				A16B20E925B58F52009F5485 /* test.json in Resources */,
 			);
